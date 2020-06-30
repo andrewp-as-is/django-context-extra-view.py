@@ -7,7 +7,8 @@ class ContextExtraViewMixin:
         context = {}
         if hasattr(super(),'get_context_data'):
             context = super().get_context_data(**kwargs)
-        context.update(self.context_extra)
+        if self.context_extra:
+            context.update(self.context_extra)
         return context
 
 

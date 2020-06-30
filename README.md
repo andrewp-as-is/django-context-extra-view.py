@@ -1,14 +1,13 @@
 <!--
-https://pypi.org/project/readme-generator/
-https://pypi.org/project/python-readme-generator/
+https://readme42.com
 -->
 
-[![](https://img.shields.io/pypi/pyversions/django-context-extra-view.svg?longCache=True)](https://pypi.org/project/django-context-extra-view/)
+
 [![](https://img.shields.io/pypi/v/django-context-extra-view.svg?maxAge=3600)](https://pypi.org/project/django-context-extra-view/)
 [![](https://img.shields.io/badge/License-Unlicense-blue.svg?longCache=True)](https://unlicense.org/)
-[![Travis](https://api.travis-ci.org/andrewp-as-is/django-context-extra-view.py.svg?branch=master)](https://travis-ci.org/andrewp-as-is/django-context-extra-view.py/)
+[![](https://github.com/andrewp-as-is/django-context-extra-view.py/workflows/tests42/badge.svg)](https://github.com/andrewp-as-is/django-context-extra-view.py/actions)
 
-#### Installation
+### Installation
 ```bash
 $ [sudo] pip install django-context-extra-view
 ```
@@ -26,5 +25,5 @@ class View(ContextExtraViewMixin,...):
 ```
 
 <p align="center">
-    <a href="https://pypi.org/project/python-readme-generator/">python-readme-generator</a>
+    <a href="https://readme42.com/">readme42.com</a>
 </p>
