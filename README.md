@@ -14,9 +14,9 @@ $ [sudo] pip install django-context-extra-view
 
 #### Examples
 ```python
-from django_context_extra_view.views import ContextExtraViewMixin
+from django_context_extra_view.views import ContextExtraMixin
 
-class View(ContextExtraViewMixin,...):
+class View(ContextExtraMixin,...):
     context_extra = {"my_page":{"active":True}}
 ```
 
